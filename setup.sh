@@ -19,7 +19,7 @@ echo "127.0.0.1 localhost" >> /etc/hosts
 echo "::1 localhost" >> /etc/hosts
 echo "127.0.1.1 "$HOST".domain "$HOST >> /etc/hosts
 
-pacman -S base-devel networkmanager grub efibootmgr dosfstools os-prober mtools neovim
+pacman -S networkmanager grub efibootmgr dosfstools os-prober mtools neovim man
 
 systemctl enable NetworkManager
 
