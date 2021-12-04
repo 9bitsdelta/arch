@@ -2,7 +2,7 @@
 
 # setup the desktop environment (bspwm, polybar, etc)
 
-pacman -S xorg xorg-xinit archlinux-wallpaper feh picom bspwm sxhkd alacritty rofi
+pacman -S xorg xorg-xinit archlinux-wallpaper feh picom bspwm sxhkd alacritty rofi git firefox
 
 git clone https://aur.archlinux.org/yay
 cd yay
